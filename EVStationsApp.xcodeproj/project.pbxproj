@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5A0CA98F2E4252C800688F25 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 5A0CA98E2E4252C100688F25 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		5A4446BC2E39009500E30A0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A0CA98E2E4252C100688F25 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5A4446AE2E39009300E30A0A /* EVStationsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EVStationsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4446BB2E39009500E30A0A /* EVStationsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVStationsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A4446C52E39009500E30A0A /* EVStationsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EVStationsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		5A4446A52E39009200E30A0A = {
 			isa = PBXGroup;
 			children = (
+				5A0CA98E2E4252C100688F25 /* .gitignore */,
 				5A4446B02E39009300E30A0A /* EVStationsApp */,
 				5A4446BE2E39009500E30A0A /* EVStationsAppTests */,
 				5A4446C82E39009500E30A0A /* EVStationsAppUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A0CA98F2E4252C800688F25 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
